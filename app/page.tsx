@@ -206,8 +206,8 @@ export default function Home() {
       <div className="w-full h-[300px] bg-gradient-to-t from-primary/5 via-[#141516cc] to-transparent">
 <div className="max-w-6xl mx-auto grid grid-cols-2">
 <div className="pt-20">
-<h1 className="text-5xl font-medium tracking-tight">Plan the present.</h1>
-<h1 className="text-5xl font-medium tracking-tight text-muted-foreground mt-2">Build the future.</h1>
+<h1 className="text-5xl font-medium tracking-tight">Optimise today.</h1>
+<h1 className="text-5xl font-medium tracking-tight text-muted-foreground mt-2">Lead tomorrow.</h1>
 </div>
 <div>
 
