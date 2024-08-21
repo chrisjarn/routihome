@@ -200,21 +200,27 @@ export default function Home() {
               coordination, Routi is designed to elevate your operations and
               keep you ahead of the curve.
             </p>
+            <button className="mt-4 text-sm text-[#47A8FF]">View all benefits</button>
           </div>
         </div>
       </div>
       <div className="w-full h-[300px] bg-gradient-to-t from-primary/5 via-[#141516cc] to-transparent">
-<div className="max-w-6xl mx-auto grid grid-cols-2">
-<div className="pt-20">
-<h1 className="text-5xl font-medium tracking-tight">Optimise today.</h1>
-<h1 className="text-5xl font-medium tracking-tight text-muted-foreground mt-2">Lead tomorrow.</h1>
-</div>
-<div className="flex space-x-2 items-end justify-end pr-5">
-<Button className="rounded-xl">Get Started</Button>
-<Button variant="secondary" className="rounded-xl">Talk to sales</Button>
-
-</div>
-</div>
+        <div className="max-w-6xl mx-auto grid grid-cols-2">
+          <div className="pt-20">
+            <h1 className="text-5xl font-medium tracking-tight">
+              Optimise today.
+            </h1>
+            <h1 className="text-5xl font-medium tracking-tight text-muted-foreground mt-2">
+              Lead tomorrow.
+            </h1>
+          </div>
+          <div className="flex space-x-2 items-end justify-end pr-5">
+            <Button className="rounded-xl">Get Started</Button>
+            <Button variant="secondary" className="rounded-xl">
+              Talk to sales
+            </Button>
+          </div>
+        </div>
       </div>
       <SimpleFooterWithFourGrids />
     </main>
