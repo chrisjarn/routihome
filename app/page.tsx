@@ -209,8 +209,9 @@ export default function Home() {
 <h1 className="text-5xl font-medium tracking-tight">Optimise today.</h1>
 <h1 className="text-5xl font-medium tracking-tight text-muted-foreground mt-2">Lead tomorrow.</h1>
 </div>
-<div>
-
+<div className="flex space-x-2 items-end justify-end pr-5">
+<Button className="rounded-xl">Get Started</Button>
+<Button variant="secondary" className="rounded-xl">Talk to sales</Button>
 
 </div>
 </div>
