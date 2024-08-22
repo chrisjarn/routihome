@@ -200,7 +200,9 @@ export default function Home() {
               coordination, Routi is designed to elevate your operations and
               keep you ahead of the curve.
             </p>
-            <button className="mt-4 text-sm text-[#47A8FF]">View all benefits</button>
+            <button className="mt-4 text-sm text-[#47A8FF]">
+              View all benefits
+            </button>
           </div>
         </div>
       </div>
