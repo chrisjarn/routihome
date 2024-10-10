@@ -396,7 +396,7 @@ export function GlobeDemo() {
 
   return (
     <div >
-      <div className="max-w-7xl mx-auto w-full relative pt-14 overflow-hidden h-[45em] translate-x-[8em] px-4">
+      <div className="max-w-6xl mx-auto w-full relative pt-14 overflow-hidden h-[45em] translate-x-[8em] px-4">
         <motion.div
           initial={{
             opacity: 0,
