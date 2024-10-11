@@ -12,7 +12,7 @@ export function SimpleFooterWithFourGrids() {
             <Logo />
           </div>
 
-          <div className="mt-2 ml-5 lg:ml-2">
+          <div className="mt-2 ml-5 lg:ml-0">
             &copy; copyright Routi 2024. All rights reserved.
           </div>
         </div>

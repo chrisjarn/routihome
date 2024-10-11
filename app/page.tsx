@@ -65,13 +65,13 @@ export default function Home() {
         <BentoGridSecondDemo />
       </div>
 
-      <div className="w-full lg:h-[270px] h-[270px] bg-gradient-to-t from-primary/5 via-[#141516cc] to-transparent">
+      <div className="w-full lg:h-[270px] h-[200px] bg-gradient-to-t from-primary/5 via-[#141516cc] to-transparent">
         <div className="max-w-6xl mx-auto px-5 lg:px-0 lg:grid grid-cols-2">
-          <div className="pt-20">
-            <h1 className="text-5xl font-medium tracking-tight">
+          <div className="pt-0 lg:pt-20">
+            <h1 className="lg:text-5xl text-4xl font-medium tracking-tight">
               Optimize today.
             </h1>
-            <h1 className="text-5xl font-medium tracking-tight text-muted-foreground mt-2">
+            <h1 className="lg:text-5xl text-4xl font-medium tracking-tight text-muted-foreground mt-2">
               Lead tomorrow.
             </h1>
           </div>
