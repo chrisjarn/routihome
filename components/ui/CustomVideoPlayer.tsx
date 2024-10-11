@@ -102,7 +102,7 @@ const CustomVideoPlayer: React.FC<CustomVideoPlayerProps> = ({
             p-6 rounded-full 
             hover:bg-[rgba(68,68,68,0.65)] 
             transition 
-            focus:outline-none focus:ring-2 focus:ring-white
+            focus:outline-none 
           "
           aria-label="Play Video"
         >
@@ -127,7 +127,7 @@ const CustomVideoPlayer: React.FC<CustomVideoPlayerProps> = ({
             p-6 rounded-full 
             hover:bg-[rgba(68,68,68,0.65)] 
             transition 
-            focus:outline-none focus:ring-2 focus:ring-white
+            focus:outline-none 
           "
           aria-label="Pause Video"
         >

@@ -5,8 +5,7 @@ import React from "react";
 import { SimpleFooterWithFourGrids } from "../components/home/Footer";
 import mainLogo from "./mainLogo.svg";
 import Image from "next/image";
-import routiimage from "./routiimage.png";
-import {BentoGridSecondDemo} from '@/components/ui/mainBento'
+import { BentoGridSecondDemo } from "@/components/ui/mainBento";
 
 export default function Home() {
   const words = ["efficient", "optimized", "smarter", "scalable"];
@@ -63,7 +62,7 @@ export default function Home() {
         </div>
       </div> */}
       <div className="pb-20">
-      <BentoGridSecondDemo />
+        <BentoGridSecondDemo />
       </div>
 
       <div className="w-full h-[300px] bg-gradient-to-t from-primary/5 via-[#141516cc] to-transparent">
@@ -84,10 +83,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col overflow-hidden">
-    </div>
+      <div className="flex flex-col overflow-hidden"></div>
       <SimpleFooterWithFourGrids />
-      
     </main>
   );
 }

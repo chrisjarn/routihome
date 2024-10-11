@@ -93,7 +93,7 @@ const items = [
   {
     title: "Bulk Import & Integrations",
     description:
-      "See how tracking numbers and customer details are instantly accessible - secured and visible only to those with the right permissions.",
+      "Effortlessly sync your data by importing large sets of route addresses or integrating with third-party software.",
     videoUrl:
       "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/Routi7.mp4",
     poster:
