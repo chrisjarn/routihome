@@ -12,7 +12,7 @@ export function SimpleFooterWithFourGrids() {
             <Logo />
           </div>
 
-          <div className="mt-2 ml-2">
+          <div className="mt-2 ml-5 lg:ml-2">
             &copy; copyright Routi 2024. All rights reserved.
           </div>
         </div>
@@ -26,7 +26,7 @@ const Logo = () => {
   return (
     <Link
       href="/"
-      className="font-normal flex space-x-2 items-center text-sm mr-4  text-black px-2 py-1  relative z-20"
+      className="font-normal flex space-x-2 items-center text-sm mr-4  text-black lg:px-0 px-5 py-1  relative z-20"
     >
       <Image priority src={mainLogo} alt="Routi Logo" />
     </Link>

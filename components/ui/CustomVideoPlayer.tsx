@@ -79,13 +79,14 @@ const CustomVideoPlayer: React.FC<CustomVideoPlayerProps> = ({
         ref={videoRef}
         className="w-full h-full object-cover cursor-pointer" // Add pointer cursor to indicate interactivity
         poster={poster}
+        playsInline // Prevent fullscreen mode on iOS
         controls={false}
       >
         <source src={videoUrl} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
-      {/* Play Button Overlay (only shown when not playing) */}
+      {/* Play Button Overlay (visible on all devices when video is not playing) */}
       {!isPlaying && (
         <button
           onClick={(e) => {
@@ -110,7 +111,7 @@ const CustomVideoPlayer: React.FC<CustomVideoPlayerProps> = ({
         </button>
       )}
 
-      {/* Pause Button Overlay (shown only when playing and on hover) */}
+      {/* Pause Button Overlay (only shown on larger screens when playing and on hover) */}
       {isPlaying && showControls && (
         <button
           onClick={(e) => {
@@ -118,6 +119,7 @@ const CustomVideoPlayer: React.FC<CustomVideoPlayerProps> = ({
             handlePause();
           }}
           className="
+            hidden md:flex  // Hide on mobile, visible on medium screens and above
             absolute 
             top-1/2 left-1/2 
             transform -translate-x-1/2 -translate-y-1/2 

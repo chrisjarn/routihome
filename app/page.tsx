@@ -65,8 +65,8 @@ export default function Home() {
         <BentoGridSecondDemo />
       </div>
 
-      <div className="w-full h-[300px] bg-gradient-to-t from-primary/5 via-[#141516cc] to-transparent">
-        <div className="max-w-6xl mx-auto grid grid-cols-2">
+      <div className="w-full lg:h-[270px] h-[270px] bg-gradient-to-t from-primary/5 via-[#141516cc] to-transparent">
+        <div className="max-w-6xl mx-auto px-5 lg:px-0 lg:grid grid-cols-2">
           <div className="pt-20">
             <h1 className="text-5xl font-medium tracking-tight">
               Optimize today.
@@ -75,7 +75,7 @@ export default function Home() {
               Lead tomorrow.
             </h1>
           </div>
-          <div className="flex space-x-2 items-end justify-end pr-5">
+          <div className="flex space-x-2 items-end lg:justify-end lg:mt-0 mt-5 pr-5">
             <Button className="rounded-xl">Join waitlist</Button>
             <Button variant="secondary" className="rounded-xl">
               Talk to sales

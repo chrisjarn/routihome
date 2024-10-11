@@ -13,15 +13,15 @@ export function BentoGridSecondDemo() {
   return (
     <div>
       {/* Header Section */}
-      <div className="py-10 max-w-6xl mx-auto">
+      <div className="py-10 lg:px-0 px-5 max-w-6xl mx-auto">
         <p className="pb-2 text-base bg-gradient-to-b from-blue-500 to-blue-600 bg-clip-text text-transparent h-auto tracking-wider">
           FEATURES
         </p>
         <div className="flex justify-between items-center">
-          <h2 className="text-start text-2xl md:text-4xl font-normal font-sans bg-clip-text h-10 text-transparent bg-gradient-to-b from-primary to-muted-foreground">
+          <h2 className="text-start text-2xl md:text-4xl font-normal font-sans bg-clip-text lg:h-10 text-transparent bg-gradient-to-b from-primary to-muted-foreground">
             Delivery management software for multi-driver teams
           </h2>
-          <button className="text-sm">View All</button>
+          <p className="text-sm lg:block hidden">More Coming</p>
         </div>
         <p className="text-start text-base max-w-2xl font-sans text-muted-foreground mt-2">
           Optimize routes instantly, handle delivery in real time, and boost
@@ -31,7 +31,7 @@ export function BentoGridSecondDemo() {
       </div>
 
       {/* Video Grid */}
-      <BentoGrid className="max-w-6xl mx-auto md:auto-rows-auto">
+      <BentoGrid className="max-w-6xl mx-auto px-5 lg:px-0 md:auto-rows-auto">
         {items.map((item, i) => (
           <BentoGridItem
             key={i}
