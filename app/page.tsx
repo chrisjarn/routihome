@@ -32,7 +32,7 @@ export default function Home() {
             </div>
             <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40" />
           </button>
-          <div className="lg:text-8xl mx-auto text-center font-normal  text-muted-foreground">
+          <div className="lg:text-8xl text-5xl mx-auto text-center font-normal tracking-tighter  text-muted-foreground">
             <div className="text-start mx-auto ml-20 flex justify-center">
               <div className="">Build</div>
               <FlipWords words={words} className="w-[500px]" /> <br />
@@ -43,7 +43,7 @@ export default function Home() {
             </span>
           </div>
           <div className="mt-4">
-            <p className="text-muted-foreground  text-center flex justify-center max-w-xl mx-auto text-lg ">
+            <p className="text-muted-foreground  text-center flex justify-center max-w-xl mx-auto lg:text-lg text-base px-10 lg:px-0 ">
               Enhance route efficiency, streamline planning, and effortlessly
               scale your operations. Connect your drivers with your customers
               seamlessly - smarter deliveries every time.

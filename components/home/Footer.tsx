@@ -16,7 +16,6 @@ export function SimpleFooterWithFourGrids() {
             &copy; copyright Routi 2024. All rights reserved.
           </div>
         </div>
-
       </div>
     </div>
   );
