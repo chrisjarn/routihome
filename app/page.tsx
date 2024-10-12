@@ -55,16 +55,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* Logo cloud */}
-      {/* <div className="max-w-6xl mx-auto pb-20">
-        <div className="p-3 border z-[999] bg-neutral-800 border-neutral-700 rounded-[32px] relative">
-          <div className="absolute inset-x-0 bottom-0 h-8 w-full bg-gradient-to-b from-transparent via-background/50 to-background scale-[1.1] pointer-events-none"></div>
-
-          <div className="p-0 bg-black border-neutral-700 border overflow-hidden rounded-[24px]">
-            <Image priority src={routiimage} alt="Routi Logo" />
-          </div>
-        </div>
-      </div> */}
       <div className="pb-20">
         <BentoGridSecondDemo />
         <p className="text-center mt-10 lg:hidden block border w-max mx-auto px-3 py-2 text-xs rounded-full">More Features Coming Soon</p>
