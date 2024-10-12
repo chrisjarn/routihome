@@ -7,7 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Routi",
   description: "Optimize today, lead tomorrow - Route Optimization Software",
-  keywords: "route optimization, fleet management, delivery routes, logistics software",
+  keywords:
+    "route optimization, fleet management, delivery routes, logistics software",
 };
 
 export const viewport: Viewport = {
@@ -15,9 +16,8 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  colorScheme: "dark",  // Optional: set color scheme
+  colorScheme: "dark",
 };
-
 
 export default function RootLayout({
   children,
@@ -29,6 +29,16 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <meta
+          property="og:title"
+          content="Routi - Route Optimization Software"
+        />
+        <meta
+          property="og:description"
+          content="Optimize today, lead tomorrow with Routi."
+        />
+        <meta property="og:url" content="https://routiapp.com" />
+        <meta property="og:type" content="website" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
