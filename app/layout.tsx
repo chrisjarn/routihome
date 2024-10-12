@@ -30,9 +30,8 @@ export default function RootLayout({
         <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any" />
         <link
           rel="apple-touch-icon"
-          href="/apple-icon?<generated>"
-          type="image/<generated>"
-          sizes="<generated>"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
         />
         <meta
           property="og:title"
