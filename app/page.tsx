@@ -21,7 +21,7 @@ export default function Home() {
       </div>
 
       {/* <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div> */}
-      <div className=" lg:px-0   overflow-hidden   rounded-none  mx-auto text-center items-center">
+      <div className=" lg:px-0 overflow-hidden   rounded-none  mx-auto text-center items-center">
         <div className="py-20 ">
           <button className=" mb-6 no-underline group cursor-pointer relative shadow-2xl  rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
             <span className="absolute inset-0 overflow-hidden rounded-full">
@@ -35,7 +35,7 @@ export default function Home() {
           <div className="lg:text-8xl text-5xl mx-auto max-w-sm lg:max-w-full  lg:text-center text-center font-normal tracking-tighter  text-muted-foreground">
             <div className="text-start mx-auto lg:ml-20 px-5  lg:px-0 flex justify-center">
               <div className="">Build</div>
-              <FlipWords words={words} className="lg:w-[500px] w-full" /> <br />
+              <FlipWords words={words} className="lg:w-[500px] w-max overflow-hidden" /> <br />
             </div>
             routes with{" "}
             <span className="text-primary  font-medium tracking-[-0.08em]">
@@ -43,7 +43,7 @@ export default function Home() {
             </span>
           </div>
           <div className="mt-4">
-            <p className="text-muted-foreground  text-center flex justify-center max-w-xl mx-auto lg:text-lg text-base px-10 lg:px-0 ">
+            <p className="text-muted-foreground  text-center flex justify-center max-w-xl mx-auto lg:text-lg text-base px-5 lg:px-0 ">
               Enhance route efficiency, streamline planning, and effortlessly
               scale your operations. Connect your drivers with your customers
               seamlessly - smarter deliveries every time.
