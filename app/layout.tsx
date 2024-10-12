@@ -28,7 +28,13 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link
+          rel="apple-touch-icon"
+          href="/apple-icon.png"
+          sizes="any"
+          type="image/png"
+        />
+
         <meta
           property="og:title"
           content="Routi - Route Optimization Software"
