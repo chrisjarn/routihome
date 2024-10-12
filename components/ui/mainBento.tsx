@@ -103,4 +103,15 @@ const items = [
     className: "md:col-span-2",
     icon: <IconSignature className="h-5 w-5 text-neutral-500" />,
   },
+  {
+    title: "Route Filtering Options",
+    description:
+      "Easily filter routes by avoiding tolls, freeways, and more. Customise routes based on vehicle size to ensure the selected vehicle follows appropriate roads.",
+    videoUrl:
+      "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/Routi10.mp4",
+    poster:
+      "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/post5thumbnail.webp",
+    className: "md:col-span-2",
+    icon: <IconSignature className="h-5 w-5 text-neutral-500" />,
+  },
 ];
