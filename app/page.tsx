@@ -67,6 +67,8 @@ export default function Home() {
       </div> */}
       <div className="pb-20">
         <BentoGridSecondDemo />
+        <p className="text-center mt-10 lg:hidden block border w-max mx-auto px-3 py-2 text-xs rounded-full">More Features Coming Soon</p>
+  
       </div>
 
       <div className="w-full lg:h-[270px] h-[200px] bg-gradient-to-t from-primary/5 via-[#141516cc] to-transparent">
