@@ -1,6 +1,8 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Pause, Play } from "lucide-react";
 
+let currentPlayingVideoRef: HTMLVideoElement | null = null; // Shared reference to track currently playing video
+
 interface CustomVideoPlayerProps {
   videoUrl: string;
   poster?: string;
@@ -26,8 +28,16 @@ const CustomVideoPlayer: React.FC<CustomVideoPlayerProps> = ({
   // Play the video and update state
   const handlePlay = () => {
     if (videoRef.current) {
+      // Pause the currently playing video if it's not this one
+      if (currentPlayingVideoRef && currentPlayingVideoRef !== videoRef.current) {
+        currentPlayingVideoRef.pause();
+        currentPlayingVideoRef.currentTime = 0; // Reset to start
+      }
+
+      // Play the current video
       videoRef.current.play();
       setIsPlaying(true);
+      currentPlayingVideoRef = videoRef.current; // Update the currently playing video
     }
   };
 
@@ -45,6 +55,7 @@ const CustomVideoPlayer: React.FC<CustomVideoPlayerProps> = ({
     if (videoRef.current) {
       videoRef.current.currentTime = 0; // Reset video to start
     }
+    currentPlayingVideoRef = null; // Clear the reference since no video is playing
   };
 
   // Listen to play, pause, and ended events to sync state
