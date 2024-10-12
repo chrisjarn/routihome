@@ -17,7 +17,10 @@ export function SimpleFooterWithFourGrids() {
           <div
             className="mt-4 cursor-pointer w-max lg:pl-0 pl-5"
             onClick={() =>
-              window.open("https://www.linkedin.com/company/routiapp/", "_blank")
+              window.open(
+                "https://www.linkedin.com/company/routiapp/",
+                "_blank"
+              )
             }
           >
             <svg
