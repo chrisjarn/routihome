@@ -18,15 +18,15 @@ export function BentoGridSecondDemo() {
           FEATURES
         </p>
         <div className="flex justify-between items-center">
-          <h2 className="text-start text-2xl md:text-4xl font-normal font-sans bg-clip-text lg:h-10 text-transparent bg-gradient-to-b from-primary to-muted-foreground">
-            Delivery management software for multi-driver teams
+          <h2 className="text-start text-2xl md:text-4xl  font-normal font-sans bg-clip-text lg:h-10 text-transparent bg-gradient-to-b from-primary to-muted-foreground">
+          Advanced route optimization software for efficient delivery management.
           </h2>
           <p className="text-sm lg:block hidden">More Coming</p>
         </div>
         <p className="text-start text-base max-w-2xl font-sans text-muted-foreground mt-2">
-          Optimize routes instantly, handle delivery in real time, and boost
-          your team’s productivity with a simple dispatcher dashboard and driver
-          app.
+          Streamline route optimization, manage real-time deliveries, and
+          enhance team efficiency with an intuitive dispatcher dashboard and
+          driver app.
         </p>
       </div>
 
@@ -64,7 +64,7 @@ const items = [
     videoUrl:
       "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/Routi4.mp4?t=2024-10-10T15%3A05%3A49.306Z",
     poster:
-      "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/post1thumbnail.png?t=2024-10-10T15%3A04%3A56.048Z",
+      "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/post1thumbnail.webp?t=2024-10-12T05%3A21%3A24.407Z",
     className: "md:col-span-2",
     icon: <IconClipboardCopy className="h-5 w-5 text-neutral-500" />,
   },
@@ -75,7 +75,7 @@ const items = [
     videoUrl:
       "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/Routi5.mp4?t=2024-10-10T15%3A16%3A34.369Z",
     poster:
-      "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/post2thumbnail.png",
+      "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/post2thumbnail.webp?t=2024-10-12T05%3A21%3A46.430Z",
     className: "md:col-span-2",
     icon: <IconFileBroken className="h-5 w-5 text-neutral-500" />,
   },
@@ -86,7 +86,7 @@ const items = [
     videoUrl:
       "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/Routi6.mp4",
     poster:
-      "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/post3thumbnail.png",
+      "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/post3thumbnail.webp?t=2024-10-12T05%3A22%3A01.603Z",
     className: "md:col-span-2",
     icon: <IconSignature className="h-5 w-5 text-neutral-500" />,
   },
@@ -97,7 +97,7 @@ const items = [
     videoUrl:
       "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/Routi7.mp4",
     poster:
-      "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/post4thumbnail.png",
+      "https://smuohmoridpkjgrkxxyc.supabase.co/storage/v1/object/public/website_videos/post4thumbnail.webp?t=2024-10-12T05%3A22%3A14.169Z",
     className: "md:col-span-2",
     icon: <IconSignature className="h-5 w-5 text-neutral-500" />,
   },
