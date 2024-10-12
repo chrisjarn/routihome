@@ -15,9 +15,9 @@ export default function Home() {
       <div className="py-4 px-5 max-w-6xl flex items-center justify-between mx-auto">
         <Image priority src={mainLogo} alt="Routi Logo" />
 
-        <button className="px-4 py-2.5 rounded-xl tracking-wide text-sm font-medium bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200">
+        <div className="px-4 py-2.5 rounded-xl tracking-wide text-sm font-medium bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200">
           Join Waitlist
-        </button>
+        </div>
       </div>
 
       {/* <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div> */}
