@@ -17,11 +17,13 @@ export function BentoGridSecondDemo() {
         <p className="pb-2 text-base bg-gradient-to-b from-blue-500 to-blue-600 bg-clip-text text-transparent h-auto tracking-wider">
           FEATURES
         </p>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between  items-center">
           <h2 className="text-start text-2xl md:text-4xl  font-normal font-sans bg-clip-text lg:h-10 text-transparent bg-gradient-to-b from-primary to-muted-foreground">
-          Advanced route optimization software for efficient delivery management.
+            Route Optimization software for efficient delivery management.
           </h2>
-          <p className="text-sm lg:block hidden">More Coming</p>
+          <p className="text-xs rounded-full border py-2 px-3 lg:block hidden">
+            More Coming
+          </p>
         </div>
         <p className="text-start text-base max-w-2xl font-sans text-muted-foreground mt-2">
           Streamline route optimization, manage real-time deliveries, and
