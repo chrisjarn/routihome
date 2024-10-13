@@ -6,6 +6,7 @@ import { SimpleFooterWithFourGrids } from "../components/home/Footer";
 import mainLogo from "./mainLogo.svg";
 import Image from "next/image";
 import { BentoGridSecondDemo } from "@/components/ui/mainBento";
+import { DialogDemo } from "@/components/ui/mainForm";
 
 export default function Home() {
   const words = ["efficient", "optimized", "smarter", "scalable"];
@@ -14,10 +15,7 @@ export default function Home() {
     <main>
       <div className="py-4 px-5 max-w-6xl flex items-center justify-between mx-auto">
         <Image priority src={mainLogo} alt="Routi Logo" />
-
-        <div className="px-4 py-2.5 rounded-xl tracking-wide text-sm font-medium bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200">
-          Join Waitlist
-        </div>
+        <DialogDemo/>
       </div>
 
       {/* <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div> */}
@@ -57,9 +55,11 @@ export default function Home() {
       </div>
       <div className="pb-20">
         <BentoGridSecondDemo />
-        <p className="text-center mt-10 lg:hidden block border w-max mx-auto px-3 py-2 text-xs rounded-full">More Features Coming Soon</p>
-  
+        <p className="text-center mt-10 lg:hidden block border w-max mx-auto px-3 py-2 text-xs rounded-full">
+          More Features Coming Soon
+        </p>
       </div>
+      <div></div>
 
       <div className="w-full lg:h-[270px] h-[200px] bg-gradient-to-t from-primary/5 via-[#141516cc] to-transparent">
         <div className="max-w-6xl mx-auto px-5 lg:px-0 lg:grid grid-cols-2">

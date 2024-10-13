@@ -44,7 +44,7 @@ export default function RootLayout({
         <meta property="og:url" content="https://routiapp.com" />
         <meta property="og:type" content="website" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} dark`}>{children}</body>
     </html>
   );
 }
