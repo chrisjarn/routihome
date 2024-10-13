@@ -8,7 +8,6 @@ import {
   IconSignature,
 } from "@tabler/icons-react";
 import CustomVideoPlayer from "./CustomVideoPlayer"; // Adjust the path as necessary
-import { AnimatedListDemo } from "@/components/ui/MainNotifications";
 
 export function BentoGridSecondDemo() {
   return (
