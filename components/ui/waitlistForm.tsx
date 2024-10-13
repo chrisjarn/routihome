@@ -11,7 +11,7 @@ export function SignupFormDemo() {
     console.log("Form submitted");
   };
   return (
-    <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-2 md:p-0 ">
+    <div className="max-w-xl w-full mx-auto rounded-none md:rounded-2xl p-2 md:p-0 ">
        <HyperText
       className="text-4xl font-bold text-black dark:text-white"
       text="Welcome to Routi"
