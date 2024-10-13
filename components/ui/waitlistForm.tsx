@@ -19,20 +19,35 @@ export function SignupFormDemo() {
         latest updates and information.
       </p>
 
-      <form className="my-8" onSubmit={handleSubmit}>
+      <form className="my-6" onSubmit={handleSubmit}>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
             <Label htmlFor="firstname">First name</Label>
-            <Input id="firstname" placeholder="Tyler" type="text" />
+            <Input
+              id="firstname"
+              placeholder="Tyler"
+              type="text"
+              className="bg-muted/30"
+            />
           </LabelInputContainer>
           <LabelInputContainer>
             <Label htmlFor="lastname">Last name</Label>
-            <Input id="lastname" placeholder="Durden" type="text" />
+            <Input
+              id="lastname"
+              placeholder="Durden"
+              type="text"
+              className="bg-muted/30"
+            />
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
-          <Input id="email" placeholder="projectmayhem@fc.com" type="email" />
+          <Input
+            id="email"
+            placeholder="projectmayhem@fc.com"
+            type="email"
+            className="bg-muted/30"
+          />
         </LabelInputContainer>
 
         <button
@@ -42,8 +57,6 @@ export function SignupFormDemo() {
           Join Waitlist &rarr;
           <BottomGradient />
         </button>
-
-        <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
       </form>
     </div>
   );
