@@ -3,6 +3,7 @@ import React from "react";
 import { Label } from "./label";
 import { Input } from "./input";
 import { cn } from "@/lib/utils";
+import HyperText from "@/components/ui/hyper-text";
 
 export function SignupFormDemo() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -11,9 +12,10 @@ export function SignupFormDemo() {
   };
   return (
     <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-2 md:p-0 ">
-      <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
-        Welcome to Routi
-      </h2>
+       <HyperText
+      className="text-4xl font-bold text-black dark:text-white"
+      text="Welcome to Routi"
+    />
       <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
         Join our waitlist to be the first to try our product and receive the
         latest updates and information.
