@@ -20,6 +20,9 @@
 .DS_Store
 *.pem
 
+# But include the Tesla public key specifically
+!/public/.well-known/appspecific/com.tesla.3p.public-key.pem
+
 # debug
 npm-debug.log*
 yarn-debug.log*
